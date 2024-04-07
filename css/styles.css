@@ -4,6 +4,7 @@
     --light-black: #2F303A;
     --black:#212121;
     --grey: #757575;
+    --button-color: #F5F4FA;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
   }
@@ -62,6 +63,10 @@
   }
 
   .header__info a:hover{
+    color:var(--blue);
+  }
+
+  .header__info a:focus{
     color:var(--blue);
   }
 
@@ -161,6 +166,27 @@
     color: var(--grey);
   }
 
+  .footer__info a:hover{
+    color:var(--blue);
+  }
+
+  .footer__info a:focus{
+    color:var(--blue);
+  }
+
   .logo {
     color: var(--blue);
+  }
+
+  .hero-section__buttons button{
+    border-radius: 4px;
+    background-color: var(--button-color);
+
+  }
+
+  .hero-section__buttons button:hover{
+    background-color: var(--blue);
+  }
+
+  .hero-section__buttons button:focus{
   }
