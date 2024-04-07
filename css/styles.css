@@ -97,7 +97,7 @@
   }
 
   .button:active{
-
+    background-color: var(--grey);
   }
 
   .about__info li{
@@ -178,9 +178,19 @@
     color: var(--blue);
   }
 
+  .footer__address {
+    color: var(--white);
+  }
+
   .hero-section__buttons button{
     border-radius: 4px;
     background-color: var(--button-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--black);
+    border: 0px solid var(--blue);
+    cursor: pointer;
 
   }
 
@@ -189,4 +199,21 @@
   }
 
   .hero-section__buttons button:focus{
+    background-color: red;
+  }
+
+  .hero-section__portofolio h5{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px; 
+  }
+
+  .hero-section__portofolio  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--grey);
+  }
+  .hero-section__portofolio ul{
+    list-style: none;
   }
